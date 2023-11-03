@@ -1,0 +1,16 @@
+
+spring:
+  application:
+     name: crud-example-fsrg
+
+datasource:
+  my-connection:
+    jdbc-url: jdbc:postgresql://localhost:5433/book_systems
+    username: postgres
+    password: postgres
+    maximum-pool-size: 10
+    pool-name: "crud-pool"
+    auto-commit: true
+
+
+
